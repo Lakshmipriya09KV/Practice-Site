@@ -1,0 +1,189 @@
+section {
+  font-family: sans-serif;
+  color: black;
+}
+
+.container-fluid {
+  padding: 0 15%;
+  position: relative;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+.top-left{
+  position: absolute;
+  top: 5%;
+  left: 16%;
+}
+
+.top-left img{
+  width: 40px;
+  height: 40px;
+}
+
+.top-right {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+}
+
+.top-right a{
+  color: #fff;
+  padding: 0 15px;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.centered{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1{
+  font-size: 4rem;
+  line-height: 0.8;
+}
+
+/* .nav-link {
+  float: left;
+  margin: 3.5% 5%;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
+  color: black;
+} */
+
+.navigation{
+  top: 35px;
+  left: 15%;
+}
+
+.navigation a{
+  padding: 0 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
+  color: black;
+}
+
+.himg{
+  top: 3%;
+  left: 16%;
+}
+
+.himg img{
+  width: 40px;
+  margin-top: 3%;
+}
+
+.himg h4{
+  padding: 0 10%;
+  line-height: 0.5;
+}
+
+/* .heading3 {
+  padding: 0 8%;
+  line-height: 0.5;
+} */
+
+.heading1{
+  position: absolute;
+  top: 5%;
+  left: 16%;
+}
+
+.heading1 h1{
+  font-size: 7rem;
+  font-family: sans-serif;
+}
+
+.heading1 h2{
+  font-family: sans-serif;
+  margin-top: -90px;
+  padding: 0 80%;
+}
+
+.hcontent{
+  position: absolute;
+  top: 10%;
+}
+
+.hcontent p{
+  margin: 6% 20%;
+}
+
+.white-section{
+  padding: 2% 15%;
+}
+
+.white-section h1{
+  font-size: 7rem;
+  font-family: sans-serif;
+  padding-left: 30%;
+}
+
+.white-section h2{
+  font-family: sans-serif;
+  margin-top: -90px;
+  padding: 0 50%;
+}
+
+.white-content{
+  padding: 2% 5% ;  
+}
+
+.white-content p{
+  margin: 3% 2%;
+}
+
+.topnav {
+  position: absolute;
+  top: 0;
+  width: 97%;
+  padding-left: 10%;
+  overflow: hidden;
+  background-color: #223457;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: #7c7c7c;
+  color: #223457;
+}
+
+.schedule{
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    background-color: whitesmoke;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.schedule h1{
+  color: #223457;
+}
+
+.schedule table,tr,td{
+   padding: 10px;
+   margin: auto;
+   border-bottom: none;
+}
